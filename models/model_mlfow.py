@@ -9,7 +9,6 @@ import mlflow
 
 dagshub.init(repo_owner='MikChe1441', repo_name='ais-devil2-wine-quality', mlflow=True)
 
-
 mlflow.autolog()
 mlflow.set_experiment("Wine_Quality_CatBoost_Exp")
 
